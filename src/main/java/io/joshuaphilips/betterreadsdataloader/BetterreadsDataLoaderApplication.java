@@ -151,7 +151,7 @@ public class BetterreadsDataLoaderApplication {
 	@PostConstruct
 	public void start() {
 		// initAuthors();
-		initWorks();
+		// initWorks();
 	}
 
 	@Bean
@@ -159,5 +159,4 @@ public class BetterreadsDataLoaderApplication {
 		Path bundle = astraProperties.getSecureConnectBundle().toPath();
 		return builder -> builder.withCloudSecureConnectBundle(bundle);
 	}
-
 }

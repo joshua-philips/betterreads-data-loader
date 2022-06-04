@@ -1,8 +1,8 @@
 spring.application.name: betterreads-data-loader
 
 datadump.location:
-    author: /Users/JSP/Spring & Spring Boot/betterreads/betterreads-data-loader/test-authors.txt
-    works: /Users/JSP/Spring & Spring Boot/betterreads/betterreads-data-loader/test-works.txt
+    author: /Users/JSP/Spring Boot/betterreads/betterreads-data-loader/test-authors.txt
+    works: /Users/JSP/Spring Boot/betterreads/betterreads-data-loader/test-works.txt
 
 spring:
     data:
